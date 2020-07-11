@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 header {
@@ -35,7 +39,6 @@ header {
 }
 
 main {
-  font-size: 16px;
   margin: 0 16px;
 }
 
@@ -98,7 +101,7 @@ table {
   margin: 0 auto 2rem;
 
   .timeline {
-    padding: 0 20px;
+    padding: 0;
     list-style: none;
 
     .timeline-item {
@@ -119,20 +122,15 @@ table {
 
       .timeline-time {
         padding: 3px 30px 0 2px;
-        // color: #aaa
-        // font-size: 16px;
         float: left;
       }
 
       .timeline-label {
         padding: 3px 0 0 2px;
-        // color: #aaa;
-        // font-size: 16px;
         font-weight: 500;
 
         .timeline-comment {
-          margin-top: 5px;
-          font-size: 14px;
+          margin-top: 1px;
           position: absolute;
           border: solid 2px #00bfff;
           border-radius: 5px;
@@ -159,6 +157,7 @@ table {
 .belongings {
   ul {
     list-style: none;
+    padding: 0 16px;
     li {
       margin-bottom: 10px;
       &:before {
